@@ -30,7 +30,9 @@ Check that the output ends with mtec1002 (something like this: /Users/joe/mtec10
 If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
-----------
+$ pwd
+/c/Users/marc/mtec1002
+
 
 
 
@@ -41,7 +43,49 @@ $ mkdir animals
 $ ls
 
 Copy and paste the output below.
-----------
+3D Objects'/
+ a.bat
+ animals/
+ AppData/
+ Apple/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ elite.txt
+ Favorites/
+'Google Drive'/
+ iCloudDrive/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TM.blf
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ OneDrive.old/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Videos/
+
+
 
 
 
@@ -52,7 +96,49 @@ $ mkdir food
 $ ls
 
 Copy and paste the output below.
-----------
+3D Objects'/
+ a.bat
+ animals/
+ AppData/
+ Apple/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ elite.txt
+ Favorites/
+ food/
+'Google Drive'/
+ iCloudDrive/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TM.blf
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ OneDrive.old/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Videos/
+
 
 
 
@@ -63,7 +149,48 @@ $ mkdir -p foo/bar/baz/qux
 $ ls
 
 Copy and paste the output below.
-----------
+ a.bat
+ animals/
+ AppData/
+ Apple/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ elite.txt
+ Favorites/
+ food/
+'Google Drive'/
+ iCloudDrive/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TM.blf
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ OneDrive.old/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Videos/
+
 
 
 
@@ -74,7 +201,13 @@ $ cd foo/bar/baz/qux
 $ pwd
 
 Copy and paste the output below.
-----------
+
+$ cd foo/bar/qux
+bash: cd: foo/bar/qux: No such file or directory
+
+Home@MarcDonnaPC MINGW64 ~
+$ pwd
+/c/Users/marc/mtec1002
 
 
 
@@ -85,7 +218,13 @@ $ cd ../..
 $ pwd
 
 Copy and paste the output below.
-----------
+
+$ cd../..
+bash: cd../..: No such file or directory
+
+Home@MarcDonnaPC MINGW64 ~
+$ pwd
+/c/Users/marc
 
 
 
@@ -96,7 +235,13 @@ $ cd -
 $ pwd
 
 Copy and paste the output below.
-----------
+$ cd-
+bash: cd-: command not found
+
+Home@MarcDonnaPC MINGW64 ~
+$ pwd
+/c/Users/marc
+
 
 
  
@@ -107,7 +252,9 @@ $ cd ../../../..
 $ pwd
 
 Copy and paste the output below.
-----------
+$ pwd
+/c/Users/marc/mtec1002
+
 
 
 
@@ -119,8 +266,9 @@ $ rmdir animals
 $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
-----------
 
+rw-r--r-- 1 Home 197121       0 Sep 14 18:23  _
+drwxr-xr-x 1 Home 197121       0 Sep 11 18:23 '3D Objects'/
 
 
 ==========
@@ -130,7 +278,10 @@ $ cd ~
 $ pwd
 
 Copy and paste the output into the space below.
-----------
+$cd~
+$ pwd
+/c/Users/marc/mtec/1002
+
 
 
 
@@ -141,7 +292,8 @@ $ cd /Volumes
 $ pwd
 
 Copy and paste the output into the space below.
-----------
+$ pwd
+/c/Users/marc/mtec1002
 
 
 
@@ -152,7 +304,10 @@ $ cd /unknown_folder
 $ pwd
 
 Copy and paste the output into the space below.
-----------
+$ cd/unknown_folder
+
+$ pwd
+/c/Users/marc/mtec1002
 
 
 
@@ -163,7 +318,9 @@ $ cd ~/mtec1002
 $ pwd
 
 Copy and paste the output into the space below.
-----------
+$ cd~/mtec1002
+$ pwd
+/c/Users/marc/mtec1002
 
 
 
@@ -173,13 +330,16 @@ Copy and paste the output into the space below.
 $ hostname
 
 Copy and paste the output into the space below.
-----------
+$ hostname
+MarcDonnaPC
+
 
 
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
-----------
+$lsmtec1002
+/c/Users/marc/mtec1002
 
 
 
@@ -202,15 +362,15 @@ strawbery
 lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
-----------
 
+$mkdir fruits
 
 
 ==========
 19. Make another directory called aardvark.  
 
 Write the command you used to create the directory below:
-----------
+$mkdir aadvark
 
 
 
@@ -218,7 +378,7 @@ Write the command you used to create the directory below:
 20. List the files and directories in the current directory using the long format.  
 
 What is the modified date of the aardvark directory?
-----------
+Sep 11 18:23
 
 
 
@@ -230,7 +390,7 @@ What is the modified date of the aardvark directory?
 * baz should be inside bar
 
 What command did you use?
-----------
+$mkdirfbb
 
 
 
@@ -238,53 +398,53 @@ What command did you use?
 22. Change your directory so that you're in the inner most directory (baz)
 
 What command did you use?
-----------
 
+file.txt
 
 
 ==========
 23. Change your directory so that you're two directories up (foo)
 
 What command did you use?
-----------
+cd
 
 
 ==========
 24. What command is used to delete empty directories?
-----------
+gzip
 
 
 
 ==========
 25. What command is used to print out your current working directory?
-----------
+pwd
 
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
-----------
+ls
 
 
 
 ==========
 27. What's the shortcut for home directory?
-----------
+~
 
 
 
 ==========
 28. What's a pathname?
-----------
 
+It's a general form of the name of a file or directory 
 
 
 ==========
 29. What's a directory?
-----------
+It's a catologing structure on a file system that referencesother files and directories
 
 
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
-----------
+/c/Users/marc
