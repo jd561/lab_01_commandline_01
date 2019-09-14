@@ -16,7 +16,47 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
-----------
+
+'3D Objects'/
+ a.bat
+ AppData/
+ Apple/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ elite.txt
+ Favorites/
+'Google Drive'/
+ iCloudDrive/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TM.blf
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ OneDrive.old/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Videos/
 
 
 
@@ -26,19 +66,70 @@ Copy and paste the output of ls below.
 $ ls D<TAB>
 
 What happens?  Describe it below.
-----------
+It asks you if you would like the program to display all 40 possibilities
 
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
-----------
+
+Display all 40 possibilities? (y or n)
+3D Objects/
+a.bat
+AppData/
+Apple/
+Application Data/
+Contacts/
+Cookies/
+Desktop/
+Documents/
+Downloads/
+elite.txt
+Favorites/
+Google Drive/
+iCloudDrive/
+IntelGraphicsProfiles/
+Links/
+Local Settings/
+MicrosoftEdgeBackups/
+Music/
+My Documents/
+NetHood/
+NTUSER.DAT
+ntuser.dat.LOG1
+--More--
 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
-----------
+Display all 40 possibilities? (y or n)
+3D Objects/
+a.bat
+AppData/
+Apple/
+Application Data/
+Contacts/
+Cookies/
+Desktop/
+Documents/
+Downloads/
+elite.txt
+Favorites/
+Google Drive/
+iCloudDrive/
+IntelGraphicsProfiles/
+Links/
+Local Settings/
+MicrosoftEdgeBackups/
+Music/
+My Documents/
+NetHood/
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+--More--
+
 
 
 
@@ -48,7 +139,9 @@ What happens?  Describe it below.
 $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
-----------
+-rw-r--r-- 1 Home 197121      162 Aug 31 20:56 '~$gital response.docx'
+-rw-r--r-- 1 Home 197121      162 Sep 28  2018 '~$ordan2.docx'
+
 
 
 
@@ -58,7 +151,9 @@ Copy and paste the first *two lines* of output below.
 $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
-----------
+'~$gital response.docx'
+'~$ordan2.docx'
+
 
 
 
@@ -68,7 +163,7 @@ Copy and paste the first *two lines* of output below.
 <UP><ENTER>
 
 What command was repeated?
-----------
+The enter command
 
 
 
@@ -78,8 +173,8 @@ What command was repeated?
 <UP><UP><UP><DOWN><ENTER>
 
 What command was repeated?
-----------
 
+The up command 
 
 
 ==========
@@ -88,7 +183,7 @@ What command was repeated?
 $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
-----------
+ls: cannot access '/Vol': No such file or directory
 
 
 
@@ -98,37 +193,38 @@ What is the result of pressing tab?
 $ ls doesnotexist
 
 Copy and paste the output below.
-----------
+$ ls doesnotexist
+ls: cannot access 'doesnotexist': No such file or directory
+
 
 
 
 ==========
 9.  What key do I press to go to the previous command?
-----------
+     The up key
 
 
 
 ==========
 10.  Name two flags that we used in this exercise.
-----------
+- and /
 
 
 
 ==========
-11.  What key do I use to attempt to autocomplete a command or a file name?
-----------
-
+11.  What key do I use to attempt to autocomplete a command or a file name
+     The tab key
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
-----------
+     ls 
 
 
 
 ==========
 13.  Name one argument that we passed to the command.
-----------
+     command not found 
 
 
 
@@ -138,7 +234,9 @@ Copy and paste the output below.
 $ foo<ENTER>
 
 Copy and paste the output below.
-----------
+$ foo
+bash: foo: command not found
+
 
 
 
@@ -148,7 +246,8 @@ Copy and paste the output below.
 <UP><ENTER>
 
 Copy and paste the output below.
-----------
+$ foo
+bash: foo: command not found
 
 
 
@@ -158,4 +257,4 @@ Copy and paste the output below.
 $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
-----------
+The prompt is the $ sign, the flag is the - sign and  the command is a desktop. But there is no arguemnt for $ ls -a Desktop.
